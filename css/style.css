@@ -27,6 +27,7 @@ header{
 .third-main-section,
 .fourth-main-section,
 .adventure-section,
+.footer-column-container,
 .footer-end-container{
     max-width: 1400px;
     margin: 0 auto;
@@ -222,6 +223,36 @@ nav.topbar .header-menu li{
     padding: 10px 30px;
     font-size: 1em;
 }
+
+
+.footer-column-container{
+    color: white;
+}
+
+.footer-column-container ul{
+    list-style-type: none;
+}
+
+.footer-column-container .column{
+    width: 250px;
+    height: 100%;
+    padding-left: 100px;
+}
+
+.footer-column-container ul li:first-of-type{
+    color: rgb(103, 96, 202);
+}
+
+.footer-column-container h3{
+    font-size: 30px;
+
+}
+
+.footer-column-container .socials-logo ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
 
 .bg-gray{
     width: 100%;
