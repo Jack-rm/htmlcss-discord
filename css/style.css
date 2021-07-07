@@ -50,10 +50,12 @@ nav.topbar .login{
     text-align: right;
 }
 
-nav.topbar .login li{
+nav.topbar .login button{
     background-color: white;
-    border-radius: 25px;
-    padding: 0 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
 }
 
 nav.topbar .header-menu li{
