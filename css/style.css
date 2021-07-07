@@ -20,7 +20,8 @@ header{
 .first-main-section,
 .second-main-section,
 .third-main-section,
-.fourth-main-section{
+.fourth-main-section,
+.adventure-section{
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -110,71 +111,22 @@ nav.topbar .header-menu li{
     margin-right: 10px;
 }
 
-.first-main-section{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.first-main-section .img-box{
-    width: 700px;
-    height: 100%;
-}
-
-.first-main-section .text-box{
-    font-size: 1.3em;
-    text-align: left;
-    padding: 30px 200px 0 150px;
-    width: 700px;
-    height: 100%;
-}
-
-.first-main-section .text-box h1{
-    font-size: 40px;
-    padding-bottom: 20px;
-}
-
-.first-main-section .text-box p{
-    line-height: 30px;
-}
-
-.second-main-section{
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.second-main-section .text-box{
-    font-size: 1.3em;
-    text-align: left;
-    padding: 30px 200px 0 150px;
-    width: 700px;
-    height: 100%;
-}
-
-.second-main-section .img-box{
-    width: 700px;
-    height: 100%;
-}
-
-.second-main-section .text-box h1{
-    font-size: 40px;
-    padding-bottom: 20px;
-}
-
-.second-main-section .text-box p{
-    line-height: 30px;
-}
-
-.bg-gray{
-    width: 100%;
-    background-color: rgb(235, 235, 235);
-}
-
-
+.first-main-section,
+.second-main-section,
 .third-main-section{
     padding-top: 100px;
     padding-bottom: 100px;
 }
 
+.first-main-section .img-box,
+.second-main-section .img-box,
+.third-main-section .img-box{
+    width: 700px;
+    height: 100%;
+}
+
+.first-main-section .text-box,
+.second-main-section .text-box,
 .third-main-section .text-box{
     font-size: 1.3em;
     text-align: left;
@@ -183,15 +135,21 @@ nav.topbar .header-menu li{
     height: 100%;
 }
 
-.third-main-section .img-box{
-    width: 700px;
-    height: 100%;
-}
-
+.first-main-section .text-box h1,
+.second-main-section .text-box h1,
 .third-main-section .text-box h1{
     font-size: 40px;
     padding-bottom: 20px;
 }
+
+.first-main-section .text-box p{
+    line-height: 30px;
+}
+
+.second-main-section .text-box p{
+    line-height: 30px;
+}
+
 
 .third-main-section .text-box p{
     line-height: 30px;
@@ -199,7 +157,6 @@ nav.topbar .header-menu li{
 
 .fourth-main-section{
     padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .fourth-main-section .img-box img{
@@ -224,6 +181,29 @@ nav.topbar .header-menu li{
     padding-bottom: 20px;
 }
 
+.adventure-section{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.adventure-section h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.adventure-section button{
+    background-color: rgb(103, 96, 202);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 1em;
+}
+
+.bg-gray{
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+}
 
 .clearfix::after{
     content:'';
