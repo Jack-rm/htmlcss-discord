@@ -17,7 +17,10 @@ header{
 
 .header-container,
 .header-title,
-.first-main-section{
+.first-main-section,
+.second-main-section,
+.third-main-section,
+.fourth-main-section{
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -88,7 +91,7 @@ nav.topbar .header-menu li{
     background-color: white;
     border: none;
     border-radius: 20px;
-    padding: 15px 30px;
+    padding: 10px 30px;
     font-size: 1em;
     margin-right: 20px;
 }
@@ -98,17 +101,18 @@ nav.topbar .header-menu li{
     color: white;
     border: none;
     border-radius: 20px;
-    padding: 15px 30px;
+    padding: 10px 30px;
     font-size: 1em;
 }
 
 .down-arrow{
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 10px;
 }
 
 .first-main-section{
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .first-main-section .img-box{
@@ -119,18 +123,105 @@ nav.topbar .header-menu li{
 .first-main-section .text-box{
     font-size: 1.3em;
     text-align: left;
-    padding: 30px 260px 0 150px;
+    padding: 30px 200px 0 150px;
     width: 700px;
     height: 100%;
 }
 
 .first-main-section .text-box h1{
-    font-size: 42px;
+    font-size: 40px;
     padding-bottom: 20px;
 }
 
 .first-main-section .text-box p{
-    line-height: 28px;
+    line-height: 30px;
+}
+
+.second-main-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.second-main-section .text-box{
+    font-size: 1.3em;
+    text-align: left;
+    padding: 30px 200px 0 150px;
+    width: 700px;
+    height: 100%;
+}
+
+.second-main-section .img-box{
+    width: 700px;
+    height: 100%;
+}
+
+.second-main-section .text-box h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.second-main-section .text-box p{
+    line-height: 30px;
+}
+
+.bg-gray{
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+}
+
+
+.third-main-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.third-main-section .text-box{
+    font-size: 1.3em;
+    text-align: left;
+    padding: 30px 200px 0 150px;
+    width: 700px;
+    height: 100%;
+}
+
+.third-main-section .img-box{
+    width: 700px;
+    height: 100%;
+}
+
+.third-main-section .text-box h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.third-main-section .text-box p{
+    line-height: 30px;
+}
+
+.fourth-main-section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.fourth-main-section .img-box img{
+    width: 1300px;
+    min-width: 500px;
+    padding-left: 50px;
+}
+
+.fourth-main-section .text-box{
+    text-align: center;
+    padding: 0 150px;
+}
+
+.fourth-main-section h1{
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+
+.fourth-main-section p{
+    line-height: 30px;
+    font-size: 1.3em;
+    padding-bottom: 20px;
 }
 
 
