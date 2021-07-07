@@ -11,7 +11,6 @@ body{
 
 footer{
     background-color: rgb(41, 41, 41);
-    height: 600px;
 }
 
 header{
@@ -207,12 +206,58 @@ nav.topbar .header-menu li{
     font-size: 1em;
 }
 
-.footer-end-container nav ul{
-    list-style-type: none;
+.footer-column-container{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.footer-end-section img{
-    vertical-align: middle;
+.footer-column-container ul{
+    list-style-type: none;
+    font-size: 1.1em;
+}
+
+.footer-column-container .column{
+    width: 250px;
+    height: 100%;
+    padding-left: 100px;
+    line-height: 35px;
+}
+
+.footer-column-container ul li:first-of-type{
+    color: rgb(103, 96, 202);
+}
+
+.footer-column-container h3{
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.footer-column-container .socials-logo{
+    padding-top: 20px;
+}
+
+.footer-column-container .socials-logo ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+.socials img{
+    width: 30px;
+    padding-right: 5px;
+}
+
+.socials-logo img{
+    width: 30px;
+}
+
+.footer-end-container{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-end-container nav ul{
+    list-style-type: none;
 }
 
 .footer-end-container .login button{
@@ -223,36 +268,6 @@ nav.topbar .header-menu li{
     padding: 10px 30px;
     font-size: 1em;
 }
-
-
-.footer-column-container{
-    color: white;
-}
-
-.footer-column-container ul{
-    list-style-type: none;
-}
-
-.footer-column-container .column{
-    width: 250px;
-    height: 100%;
-    padding-left: 100px;
-}
-
-.footer-column-container ul li:first-of-type{
-    color: rgb(103, 96, 202);
-}
-
-.footer-column-container h3{
-    font-size: 30px;
-
-}
-
-.footer-column-container .socials-logo ul li{
-    list-style-type: none;
-    display: inline-block;
-}
-
 
 .bg-gray{
     width: 100%;
