@@ -9,6 +9,11 @@ body{
     
 }
 
+footer{
+    background-color: rgb(41, 41, 41);
+    height: 600px;
+}
+
 header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -21,7 +26,8 @@ header{
 .second-main-section,
 .third-main-section,
 .fourth-main-section,
-.adventure-section{
+.adventure-section,
+.footer-end-container{
     max-width: 1400px;
     margin: 0 auto;
 }
@@ -92,7 +98,7 @@ nav.topbar .header-menu li{
     background-color: white;
     border: none;
     border-radius: 20px;
-    padding: 10px 30px;
+    padding: 15px 30px;
     font-size: 1em;
     margin-right: 20px;
 }
@@ -102,7 +108,7 @@ nav.topbar .header-menu li{
     color: white;
     border: none;
     border-radius: 20px;
-    padding: 10px 30px;
+    padding: 15px 30px;
     font-size: 1em;
 }
 
@@ -192,6 +198,23 @@ nav.topbar .header-menu li{
 }
 
 .adventure-section button{
+    background-color: rgb(103, 96, 202);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 1em;
+}
+
+.footer-end-container nav ul{
+    list-style-type: none;
+}
+
+.footer-end-section img{
+    vertical-align: middle;
+}
+
+.footer-end-container .login button{
     background-color: rgb(103, 96, 202);
     color: white;
     border: none;
